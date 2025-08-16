@@ -1,0 +1,17 @@
+numpy
+pandas
+scikit-learn
+xgboost
+catboost
+matplotlib
+seaborn
+scipy
+joblib
+tqdm
+pyyaml
+optuna
+shap>=0.44.1
+numba>=0.58.0
+llvmlite>=0.41.0
+ruff
+imbalanced-learn

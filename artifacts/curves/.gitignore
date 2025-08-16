@@ -1,0 +1,16 @@
+# Python cache / virtualenv
+__pycache__/
+*.pyc
+.venv/
+.env/
+
+# IDE / editor settings
+.vscode/
+.idea/
+
+# Logs & temp files
+*.log
+*.tmp
+
+# Ruff cache
+.ruff_cache/

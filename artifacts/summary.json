@@ -1,0 +1,40 @@
+{
+  "rows": 6819,
+  "cols": 96,
+  "pos_rate": 0.03226279513125092,
+  "selected_features": 63,
+  "models": [
+    {
+      "name": "LogReg",
+      "best_params": {
+        "logreg__penalty": "l1",
+        "logreg__C": 0.0379269019073225
+      },
+      "test_pr_auc": 0.4312176362454321,
+      "test_roc_auc": 0.9476067493112947
+    },
+    {
+      "name": "RandomForest",
+      "best_params": {
+        "rf__min_samples_split": 5,
+        "rf__min_samples_leaf": 2,
+        "rf__max_features": "sqrt",
+        "rf__max_depth": null
+      },
+      "test_pr_auc": 0.5559953326156137,
+      "test_roc_auc": 0.9601067493112948
+    },
+    {
+      "name": "XGBoost",
+      "best_params": {
+        "xgb__reg_lambda": 1.0,
+        "xgb__reg_alpha": 0.001,
+        "xgb__min_child_weight": 1,
+        "xgb__max_depth": 8,
+        "xgb__gamma": 0
+      },
+      "test_pr_auc": 0.5478343813472927,
+      "test_roc_auc": 0.9576446280991735
+    }
+  ]
+}
